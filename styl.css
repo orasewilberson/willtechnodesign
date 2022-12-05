@@ -1,0 +1,497 @@
+
+*{
+  box-sizing:border-box;	
+}
+body,html{
+	font-size:16px;
+	font-family:"Montserrat",sans-serif;
+	line-height:1.6;
+	margin:0;
+	font-weight:500;
+	background:#FBFBFB;
+    
+}
+	
+
+.barMenu {
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	padding:30px 87px;
+	background:blue;
+	z-index:3;
+	box-shadow:0 4px 10px rgba(0, 0, 0, 0.5);
+}
+.barMenu nav {
+	float:left;
+}
+.barMenu nav a{
+	color:#9F9F9F;
+	text-decoration:none;
+	font-weight:700;
+	padding:0 53px;
+}
+
+.barMenu nav a:hover{
+	color:#000;
+}
+
+
+.main{
+	box-shadow:0 4px 30px rgba(0, 0, 0, 0.2);
+}
+.accueil{
+	height:517px;
+	background:no-repeat center center /cover url("image/accueil.jpeg");
+	width:100%;
+}
+
+table{
+	border-collapse:collapse;
+	width: 200px;
+	height: 280px;
+	padding-right:35px;
+	margin:35px;
+	border:none;
+	vertical-align: middle;     
+	font-family:arial;
+	line-height:30px;
+	padding:0 22px;
+	font-size:16px;
+	
+}
+table th, table td{
+        padding: 10px;
+		 
+      }
+ table,th, td,input{
+     padding-right:100px;	 
+      }
+input{
+	border: 1px solid #d1d1d1;
+	border-radius:4px;
+	outline:none;
+	height:35px;
+	-moz-box-shadow: -8px -1px 19px -8px rgba(184,184,184,1);
+	box-shadow: -8px -1px 19px -8px rgba(184,184,184,1);
+	 
+}
+button{
+	text-align:center;
+	padding: 8px 50px;
+	border:none;
+	border-radius: 5px;
+	outline:none;
+	background-color:gray;
+	
+}
+.reserve {
+    height:550px;
+	background:no-repeat center center /cover url("image/bar.jpg");
+	width:100%;
+}
+
+/*-----------loisirs----------*/
+.videohome video{
+	width:100%;
+	height:460px;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	z-index:-1;
+}
+.video1 video{
+		width:50%;
+		height:50%;		
+}
+.messi video{
+		margin-left:600px;
+		margin-top:-250px;
+		padding:90px;
+		width:50%;
+		height:50%;	
+	
+}
+.video2 video{
+		width:50%;
+		height:50%;		
+}
+.mes video{
+		margin-left:600px;
+		margin-top:-250px;
+		padding:90px;
+		width:50%;
+		height:50%;
+}
+.video3 video{
+		width:50%;
+		height:50%;		
+}
+
+/*reference*/
+.moy{
+    height:550px;
+	background:no-repeat center center /cover url("image/bar.jpg");
+	width:100%;
+}
+.tripadvisor img{
+		width:20%;
+		height:30%;	
+}
+.advisor {
+		width:20%;
+		height:30%;
+		margin-left:400px;
+		margin-top:-205px;
+
+}
+.dominos img{
+		width:20%;
+		height:30%;
+		margin-top:30px;
+}
+.wowo{
+	width:20%;
+	height:30%;
+	margin-left:400px;
+	margin-top:-180px;
+}
+.kokoye img{
+		width:20%;
+		height:30%;
+		margin-top:15px;	
+}
+.gill img{
+		width:20%;
+		height:30%;
+		margin-left:400px;
+		margin-top:-170px;	
+}
+.gill label{
+		margin-left:-230px;
+}
+.week img{
+		width:20%;
+		height:30%;	
+}
+.potiwa img{
+		width:20%;
+		height:30%;
+		margin-left:400px;
+		margin-top:-170px;		
+}
+.potiwa label{
+		margin-left:400px;
+
+}
+.historique img{
+		width:20%;
+		height:30%	
+}
+.piz img{
+		width:20%;
+		height:30%;
+		margin-left:400px;
+		margin-top:-170px;
+}
+.piz label{
+		margin-left:400px;
+	
+}
+/*---------------------------menu-------------------------*/
+.home{
+    height:517px;
+	background:no-repeat center center /cover url("image/aa.jpeg");
+	width:100%;
+	
+}
+.ss img{
+	margin:25px;
+	width:30%;
+	height:350px;
+}
+.bb img{
+	margin:25px;
+	width:30%;
+	height:350px;
+}
+.cc img{
+	margin:25px;
+	width:30%;
+	height:350px;
+}
+.ff img{
+	margin:25px;
+	width:30%;
+	height:350px;
+}
+.aa img{
+	margin:25px;
+	width:30%;
+	height:350px;
+}
+.tt img{
+	margin:25px;
+	width:30%;
+	height:350px;
+}
+.advi{
+	margin-top:-20px;
+	
+}
+
+.calz,.tomate{
+		margin-top:-20px;	
+}
+
+.rus,.napoli,.chorizo,.pomme{
+					margin-top:-20px;	
+}
+.sauce,.fromage,.origan,.oignon,.creme,.tomate{
+									margin-left:460px;
+									margin-top:-40px;
+}
+.cal{
+	margin-left:460px;
+	margin-top:-60px;	
+}
+h3 {
+	margin-left:30px;
+	font-family:arial;
+ 
+}
+@keyframes fun{
+	0%{
+		transform:scale(1) rotate(0deg);
+	}
+	100%{
+		transform:scale(1.1) rotate(10deg);
+	}
+}
+@media  screen and (max-width:1110px){
+	.barMenu nav{
+		text-align:center;
+	}
+}
+
+@media  screen and (max-width:950px){
+	
+	.barMenu nav a{
+		white-space:nowrap;
+		display:inline-block;
+		margin:0 15px 5px 15px;
+}
+}
+
+@media screen and (max-width:600px) {
+	.barMenu {
+		position:absolute;
+	}
+body{
+	 width: 100%;
+     height: 25vh;
+	}
+
+
+/*-------------------------reference-----------------------*/
+.tripadvisor img{
+			width:30%;
+			height:15vh;	
+}
+.advisor img{
+		width:140%;
+		height:15vh;
+		margin-top:80px;
+		margin-left:-95px;	
+}
+.advisor b{
+		margin-left:-60px;	
+}
+.dominos img{
+		width:30%;
+		height:15vh;
+		margin-top:180px;	
+}
+.wowo img{
+		width:140%;
+		height:15vh;
+		margin-top:75px;
+		margin-left:-95px;	
+}
+.wowo b{
+	margin-left:-60px;
+}
+.kokoye img{
+		width:30%;
+		height:15vh;
+		margin-top:180px;	
+}
+.gill img{
+		width:30%;
+		height:15vh;
+		margin-top:-100px;
+		margin-left:300px;
+}
+.gill label{
+		margin-left:300px;
+}
+.week img{
+		width:30%;
+		height:15vh;	
+}
+.potiwa img{
+		width:30%;
+		height:15vh;
+		margin-left:300px;
+		margin-top:-50px;
+}
+.potiwa label{
+		margin-left:300px;
+}
+.historique img{
+			width:30%;
+			height:15vh;
+}
+.piz img{
+		width:30%;
+		height:15vh;
+		margin-left:300px;
+		margin-top:-90px;
+}
+.piz label{
+		margin-left:300px;
+}
+/*--------------------------------------loisir--------------------*/
+.mainvideo{
+	padding:25px 10px 25px 10px;
+	margin:50px;
+}
+.video1 video{
+		width:100%;
+		height:20vh;
+		display:block;
+		margin-top:-20px;
+}
+.messi video{
+		width:30%;
+		height:20vh;
+		display:block;
+		margin-left:-90px;
+		margin-top:-100px;
+}
+.video2 video{
+		width:100%;
+		height:20vh;
+		display:block;
+		margin-top:-80px;
+}
+.mes video{
+		width:100%;
+		height:20vh;
+		display:block;
+		margin-left:-90px;
+		margin-top:-70px;
+}
+.video3 video{
+		width:100%;
+		height:20vh;
+		display:block;
+		margin-top:-70px;
+}
+.reserve img{
+		margin:20px;
+		width:100%;
+		height:50vh;
+		border : 1px solid #000000;
+		display:block;	
+		margin-left:-2%;
+}
+table{
+	width:50%;
+	height:20vh;	
+}
+.home img{
+		width:100%;
+		height:50vh;	
+}
+.ss img{
+	width:30%;
+	height:25vh;	
+}
+.bb img{
+	width:30%;
+	height:25vh;	
+}
+.cc img{
+	width:30%;
+	height:25vh;
+}
+.ff img{
+	width:30%;
+	height:25vh;	
+}
+.aa img{
+	width:30%;
+	height:25vh;	
+}
+.tt img{
+	width:30%;
+	height:25vh;	
+}
+.advi{
+	display:block;
+	padding:25px;
+	margin-left:-70px;
+	margin-top:-50px;
+	color:#000;	
+}
+.sauce{
+	display:block;
+	padding:25px;
+	margin-left:210px;
+	margin-top:-90px;
+	color:#000;
+}
+.napoli{
+	display:block;
+	padding:25px;
+	margin-left:-70px;
+	margin-top:-50px;
+	color:#000;
+}
+.fromage{
+	display:block;
+	padding:25px;
+	margin-left:210px;
+	margin-top:-100px;
+	color:#000;	
+}
+.calz,.veg,.chorizo,.call,.rus{
+					display:block;
+					padding:25px;
+					margin-left:-70px;
+					margin-top:-50px;
+					color:#000;	
+}
+.origan,.cal,.oignon,.tomate,.creme{
+						display:block;
+						padding:25px;
+						margin-left:210px;
+						margin-top:-125px;
+						color:#000;
+}
+	
+}
+
+/*
+<div class="nomRestaurant">
+          <h1> La vision d'aigle Restaurent</h1>
+        </div>		
+		.nomRestaurant{
+	top:0;
+	left:0;
+	width:100%;
+	margin-top:-30px;
+	padding:0 10px;  */
